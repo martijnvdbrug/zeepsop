@@ -1,9 +1,5 @@
 ---
 layout: layouts/default
 permalink: /
-title: Thanks to Pinelab.studio
+title: Studio Zeepsop
 ---
-
-# It works!
-Thank [pinelab.studio](https://pinelab.studio) for this template
-
