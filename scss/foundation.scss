@@ -81,9 +81,6 @@ $body-background: #D7FCEA;
   .title3 {
     @include mui-queue(0.2s, 0s, slide($direction: right));
   }
-  .title4 {
-    @include mui-queue(0.2s, 0s, slide($direction: right));
-  }
 }
 
 p {
@@ -103,7 +100,7 @@ p {
 }
 
 #video {
-  padding: 20px 0 20px 0;
+  padding: 20px 0 60px 0;
 }
 
 #video iframe {
@@ -125,4 +122,11 @@ p {
   margin-bottom: 0;
   color: $body-background;
   background-color: $body-font-color;
+  line-height: 1.8;
 }
+ .sticky-title {
+   position: fixed;
+   z-index: 10;
+   background-color: $body-background;
+   padding-right: 15px;
+ }
