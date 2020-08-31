@@ -14,6 +14,7 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
+    "motion-ui": "^2.0.3",
     "@11ty/eleventy": "^0.11.0",
     "foundation-sites": "^6.6.3",
     "node-sass": "^4.14.1",

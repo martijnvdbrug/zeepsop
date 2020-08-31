@@ -3,15 +3,40 @@
 {% include "components/head.njk" %}
 <body>
 
-<section id="title" class="grid-x grid-padding-x">
+<div class="grid-x grid-padding-x">
     <div class="cell show-for-large large-3"></div>
     <div class="cell small-12 large-6">
-        <h1>ZEEPSOP</h1>
-        <h1>ZEEPSOP</h1>
-        <h1>ZEEPSOP</h1>
-        <h1>ZEEPSOP</h1>
+        <section id="title" class="grid-x">
+            <div class="cell small-6 is-animating">
+                <h1 class="title1">ZEEPSOP</h1>
+                <h1 class="title2">ZEEPSOP</h1>
+                <h1 class="title3">ZEEPSOP</h1>
+                <h1 class="title4">ZEEPSOP</h1>
+            </div>
+            <div class="cell small-6 text-right">
+                <img src="/images/zeepsop.gif" alt="Zeepsop logo by Mishooto"/>
+            </div>
+        </section>
+
+        <section id="video" class="grid-x">
+            <div class="cell small-12">
+                <div class="videoWrapper">
+                    <iframe src="https://www.youtube.com/embed/k89qQ6MUg-4?autoplay=1&loop=1" frameborder="0"
+                            allow="autoplay; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <p> Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a
+                    new normal that </p>
+            </div>
+        </section>
+
     </div>
     <div class="cell show-for-large large-3"></div>
+</div>
+
+<section id="footer" class="grid-x">
+    <div class="cell small-12 text-center">
+        <h1>CONTACT@ZEEPSOP.NL</h1>
+    </div>
 </section>
 
 {% include "components/script.njk" %}
