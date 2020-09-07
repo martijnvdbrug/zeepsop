@@ -68,29 +68,8 @@ $body-background: #D7FCEA;
 // @include foundation-prototype-classes;
 
 // @include motion-ui-transitions;
-@include motion-ui-animations;
+// @include motion-ui-animations;
 
-// title animation
-@include mui-series {
-  .title1 {
-    @include mui-queue(0.2s, 0s, slide($direction: right));
-  }
-  .title2 {
-    @include mui-queue(0.2s, 0s, slide($direction: right));
-  }
-  .title3 {
-    @include mui-queue(0.2s, 0s, slide($direction: right));
-  }
-}
-
-p {
-  font-size: 0.9rem;
-}
-
-#title h1 {
-  font-size: 3rem;
-  line-height: 1;
-}
 
 .videoWrapper {
   position: relative;
@@ -129,4 +108,8 @@ p {
    z-index: 10;
    background-color: $body-background;
    padding-right: 15px;
+ }
+
+ .logo {
+   margin: 50px 0 50px 0;
  }
